@@ -1,7 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { products } from "../../index";
-import { IProduct } from "../../../components/Product";
-import { func } from "joi";
+import { IProduct } from "../../../components/Product"; 
 
 export interface ISnipcardProduct {
     id: string
